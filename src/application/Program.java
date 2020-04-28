@@ -44,6 +44,11 @@ public class Program {
 		seller.setName("");
 		sellerDao.update(seller);
 		System.out.println("Atualizado");
+		
+		System.out.println("=== Test 6: Seller Update ");
+		sellerDao.deleteById(1);
+		System.out.println("Excluido ");
+
 	}
 
 }
